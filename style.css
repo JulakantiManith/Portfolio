@@ -184,9 +184,15 @@ header nav a{
     width: 500px;
     max-width: 80%;
 }
-#intro .content .name,
-#intro .content .job{
+#intro .content .name
+{
     font-size: 6em;
+    font-weight: bold;
+    font-family: 'Righteous', sans-serif;
+    line-height: 1em;
+}
+#intro .content .job{
+    font-size: 5em;
     font-weight: bold;
     font-family: 'Righteous', sans-serif;
     line-height: 1em;
