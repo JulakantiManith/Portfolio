@@ -199,9 +199,12 @@ header nav a{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-#intro .content .des{
+#intro .content .des p{
     margin-top: 1.2em;
     width: 70%;
+    
+    font-weight: 700;
+    
 }
 #intro .content .des a{
     margin-top: 1.2em;
