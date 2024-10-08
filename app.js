@@ -46,3 +46,13 @@ closeBtn.addEventListener('click', function() {
 });
 
 
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault(); // Disable right-click menu
+});
+
+document.addEventListener('keydown', function(e) {
+    // Disable Ctrl+C, Ctrl+X, Ctrl+S, and Ctrl+U
+    if (e.ctrlKey && (e.key === 'c' || e.key === 'x' || e.key === 's' || e.key === 'u')) {
+        e.preventDefault();
+    }
+});
